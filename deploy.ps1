@@ -9,7 +9,7 @@ $FullImageName = "${LoginServer}/${ImageName}:${Tag}"
 $ResourceGroup = "acr-learning-rg"
 $ContainerName = "flask-acr-demo"
 $DnsLabel = "flaskacrdemo2026leye"
-$RegistryPassword = "BN1trV9mXIp2bzzolKBaJtwL3xpkof55y14QguwxubZJ5W9YMew6JQQJ99CFAC5RqLJEqg7NAAACAZCRPfhE"
+$RegistryPassword = "<registry-password>"
 
 Write-Host "==============================================" -ForegroundColor Cyan
 Write-Host "   Azure ACR & ACI Deployment Automation" -ForegroundColor Cyan
