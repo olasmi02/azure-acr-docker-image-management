@@ -99,7 +99,7 @@ az container create \
     --dns-name-label flaskacrdemo2026leye \
     --ports 80 \
     --registry-username learnacrolamc \
-    --registry-password "BN1trV9mXIp2bzzolKBaJtwL3xpkof55y14QguwxubZJ5W9YMew6JQQJ99CFAC5RqLJEqg7NAAACAZCRPfhE" \
+    --registry-password "<registry-password>" \
     --os-type Linux \
     --cpu 1 \
     --memory 1
